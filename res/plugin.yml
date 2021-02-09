@@ -1,0 +1,11 @@
+name: LiteBansExtension
+version: 1.0.0
+author: ipodtouch0218
+main: us.universemc.lbe.LiteBansExtension
+depend: [LiteBans]
+
+commands:
+  siblings:
+    usage: /<command>
+    description: Specifies user accounts as being siblings, ignoring dupe IP warnings.
+    permission: litebansextension.cmd.siblings
